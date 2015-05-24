@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataAnalyze_1_PracticeItemActivity" >
+
+    <Button
+        android:id="@+id/btn_backtomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="404dp"
+        android:text="返回" />
+
+</AbsoluteLayout><!-- From: file:/C:/Users/SC/AndroidStudioProjects/VolleyBallNotes/app/src/main/res/layout/page_data_analyze_1.xml -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SC\AndroidStudioProjects\VolleyBallNotes\app\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\SC\AndroidStudioProjects\VolleyBallNotes\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0-00833659258a5346ad7cddd628031c7b8345330a.jar" />
+    </item>
+    <item
+        jar="C:\Users\SC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\SC\AndroidStudioProjects\VolleyBallNotes\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-06bf81b82dfdfcb93db17ba30d5c86c508a148bb.jar" />
+    </item>
+
+</items>

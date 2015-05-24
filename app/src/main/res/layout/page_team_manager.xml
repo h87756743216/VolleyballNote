@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_team_manager_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="80dp"
+        android:text="球員登錄設定" />
+
+    <Button
+        android:id="@+id/btn_team_manager_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="171dp"
+        android:text="球隊財產" />
+
+    <Button
+        android:id="@+id/btn_team_manager_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="265dp"
+        android:text="得獎紀錄" />
+
+    <Button
+        android:id="@+id/btn_backtomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107dp"
+        android:layout_y="358dp"
+        android:text="返回" />
+
+</AbsoluteLayout>

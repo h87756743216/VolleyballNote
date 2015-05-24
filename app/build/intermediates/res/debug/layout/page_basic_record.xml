@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/view_our_team"
+        android:layout_x="12dp"
+        android:layout_y="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/view_opponent_team"
+        android:layout_x="262dp"
+        android:layout_y="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:clickable="true"
+        android:id="@+id/view_our_point"
+        android:layout_x="56dp"
+        android:layout_y="64dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=":"
+        android:id="@+id/textView4"
+        android:layout_x="195dp"
+        android:layout_y="64dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:clickable="true"
+        android:text="0"
+        android:id="@+id/view_opponent_point"
+        android:layout_x="310dp"
+        android:layout_y="64dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="發球失誤"
+        android:id="@+id/btn_service"
+        android:layout_x="75dp"
+        android:layout_y="115dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接球失誤"
+        android:id="@+id/btn_receive"
+        android:layout_x="75dp"
+        android:layout_y="180dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="攻擊失誤"
+        android:id="@+id/btn_attack"
+        android:layout_x="75dp"
+        android:layout_y="245dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="攔網失誤"
+        android:id="@+id/btn_block"
+        android:layout_x="75dp"
+        android:layout_y="310dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="無法判定"
+        android:id="@+id/btn_unknown"
+        android:layout_x="75dp"
+        android:layout_y="375dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我方得分"
+        android:id="@+id/btn_add_point"
+        android:layout_x="75dp"
+        android:layout_y="440dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize = "40sp"
+        android:text="0"
+        android:id="@+id/view_service"
+        android:layout_x="190dp"
+        android:layout_y="120dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize = "40sp"
+        android:text="0"
+        android:id="@+id/view_receive"
+        android:layout_x="190dp"
+        android:layout_y="185dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize = "40sp"
+        android:text="0"
+        android:id="@+id/view_attack"
+        android:layout_x="190dp"
+        android:layout_y="250dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize = "40sp"
+        android:text="0"
+        android:id="@+id/view_block"
+        android:layout_x="190dp"
+        android:layout_y="315dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:textSize = "40sp"
+        android:text="0"
+        android:id="@+id/view_unknown"
+        android:layout_x="190dp"
+        android:layout_y="380dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="比賽結束"
+        android:id="@+id/btn_re"
+        android:layout_x="143dp"
+        android:layout_y="9dp" />
+
+</AbsoluteLayout>
+<!-- From: file:/C:/Users/SC/AndroidStudioProjects/VolleyBallNotes/app/src/main/res/layout/page_basic_record.xml -->

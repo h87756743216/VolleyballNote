@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_backtomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="439dp"
+        android:text="返回" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="意見填寫"
+        android:id="@+id/textView"
+        android:layout_x="139dp"
+        android:layout_y="22dp" />
+
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="340dp"
+        android:id="@+id/editText"
+        android:layout_x="26dp"
+        android:layout_y="7dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="送出"
+        android:id="@+id/button"
+        android:layout_x="310dp"
+        android:layout_y="444dp" />
+</AbsoluteLayout>
+<!-- From: file:/C:/Users/SC/AndroidStudioProjects/VolleyBallNotes/app/src/main/res/layout/page_suggestion.xml -->

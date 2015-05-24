@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.volleyballnotes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.volleyballnotes.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TeamManager_1_playersetActivity"
+            android:label="TeamManager_1_playersetActivity" >
+        </activity>
+        <activity
+            android:name=".TeamManager_2_MoneyActivity"
+            android:label="TeamManager_2_MoneyActivity" >
+        </activity>
+        <activity
+            android:name=".TeamManager_3_RewardActivity"
+            android:label="TeamManager_3_RewardActivity" >
+        </activity>
+        <activity
+            android:name=".TeamManagerActivity"
+            android:label="TeamManagerActivity" >
+        </activity>
+        <activity
+            android:name=".RecordContestActivity"
+            android:label="RecordContestActivity" >
+        </activity>
+        <activity
+            android:name=".PracticeActivity"
+            android:label="PracticeActivity" >
+        </activity>
+        <activity
+            android:name=".DataAnalyzeActivity"
+            android:label="DataAnalyzeActivity" >
+        </activity>
+        <activity
+            android:name=".SuggestionActivity"
+            android:label="SuggestionActivity" >
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="SignInActivity" >
+        </activity> 
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="RegistrationActivity" >
+        </activity> 
+        <activity
+            android:name=".RegistrationPlayerActivity"
+            android:label="RegistrationPlayerActivity" >
+        </activity>   
+        <activity
+            android:name=".BasicRecordActivity"
+            android:label="BasicRecordActivity" >
+        </activity>   
+        <activity
+            android:name=".SpecialtyRecordActivity"
+            android:label="SpecialtyRecordActivity" >
+        </activity> 
+        <activity
+            android:name=".DataAnalyze_1_PracticeItemActivity"
+            android:label="DataAnalyze_1_PracticeItemActivity" >
+        </activity> 
+        <activity
+            android:name=".DataAnalyze_2_AttendRecordActivity"
+            android:label="DataAnalyze_2_AttendRecordActivity" >
+        </activity> 
+        <activity
+            android:name=".DataAnalyze_3_BaseRecordActivity"
+            android:label="DataAnalyze_3_BaseRecordActivity" >
+        </activity> 
+        <activity
+            android:name=".DataAnalyze_4_ProfessionalRecordActivity"
+            android:label="DataAnalyze_4_ProfessionalRecordActivity" >
+        </activity> 
+        <activity
+            android:name=".DataAnalyze_5_OutcomeTableActivity"
+            android:label="DataAnalyze_5_OutcomeTableActivity" >
+        </activity>   
+        
+    </application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+</manifest>

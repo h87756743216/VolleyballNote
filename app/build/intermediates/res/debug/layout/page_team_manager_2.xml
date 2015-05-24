@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamManager_2_MoneyActivity" >
+
+    <requestFocus
+        android:layout_x="136dp"
+        android:layout_y="270dp" />
+
+    <requestFocus
+        android:layout_x="178dp"
+        android:layout_y="280dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="22dp"
+        android:text="品項名稱" />
+
+    <EditText
+        android:id="@+id/data_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="14dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="60dp"
+        android:text="收支" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="96dp"
+        android:text="金額" />
+
+    <EditText
+        android:id="@+id/data_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108dp"
+        android:layout_y="84dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="305dp"
+        android:layout_y="130dp"
+        android:text="送出" />
+
+    <Button
+        android:id="@+id/btn_backtomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="126dp"
+        android:text="返回" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_x="0dp"
+        android:layout_y="191dp" >
+
+        <TableLayout
+            android:id="@+id/table_verify_member"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="41dp"
+            android:layout_y="185dp" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="品項     " />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收入     " />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支出     " />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="總金額" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="59dp"
+        android:orientation="horizontal"
+        android:id="@+id/rdogrp_in_out">
+
+        <RadioButton
+            android:id="@+id/rdo_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="108dp"
+            android:layout_y="56dp"
+            android:text="收入" />
+
+        <RadioButton
+            android:id="@+id/rdo_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="194dp"
+            android:layout_y="54dp"
+            android:text="支出" />
+    </RadioGroup>
+
+</AbsoluteLayout><!-- From: file:/C:/Users/SC/AndroidStudioProjects/VolleyBallNotes/app/src/main/res/layout/page_team_manager_2.xml -->
